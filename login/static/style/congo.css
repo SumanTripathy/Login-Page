@@ -1,0 +1,45 @@
+a
+{
+    color: yellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: large;
+
+}
+
+.congo
+{
+    background:rgba(20, 20, 20, 0.8);
+    width: 25%;
+    padding: 20px 20px;
+    text-align: center;
+    height: 80%;
+    border-radius: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: lightgreen;
+    background-image: url(/images/congratulations.jpg);
+    background-size: cover;
+}
+
+h2
+{
+    margin-top: 150px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: x-large;
+}
+
+h1
+{
+    font-size: xx-large;
+    margin-bottom: 250px;
+    font-weight: bolder;
+    color: whitesmoke;
+}

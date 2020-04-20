@@ -1,0 +1,32 @@
+{%load static%}
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <title>Congo</title>
+
+    <link href="{% static 'style/congo.css' %}" rel="stylesheet" type="text/css"/>
+</head>
+
+<body style="background-image: url({% static 'images/congratulations.jpg' %});">
+
+    <div class="congo">
+        
+        {% if user.is_authenticated %}
+        <h2> Congratulations.... Sign In successfull!!!</h2><br><br>
+        <h1>Hello, {{user.first_name}}</h1><br>
+        <a href="{% url 'signin' %}">Go back to Home Page</a>
+        {%else%}
+
+        <a href="{% url 'signin' %}">Go back to Home Page</a>
+
+        {% endif%}
+       
+       
+        <br>
+        <br>
+        
+    </div>
+    
+</body>
